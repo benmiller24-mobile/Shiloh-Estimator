@@ -8936,6 +8936,9 @@ const OVL_OPTS=[
   {v:"BD",l:"Beaded Inset",door:0,df:0},
   {v:"SB",l:"Square Bead Inset",door:0,df:0},
   {v:"38",l:'3/8" Inset',door:0,df:0},
+  {v:"MOD-FI",l:"Modern Flush Inset",door:0,df:0},
+  {v:"MOD-BD",l:"Modern Beaded Inset",door:0,df:0},
+  {v:"MOD-SB",l:"Modern Square Beaded Inset",door:0,df:0},
 ];
 let _OVL="CN";
 

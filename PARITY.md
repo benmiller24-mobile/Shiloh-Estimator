@@ -21,8 +21,9 @@ Cloned from eclipse-estimator v8.8.0 @ c807b07. `.git`, `node_modules`, `dist` s
 - `DRW_BOX`: trimmed to Shiloh's options (5/8 & 3/4 dovetail × Tandem Edge / Full Ext;
   $0/$57/$72/$129 per C2). Removed Simulated Metal and Legrabox ($372) — not offered.
 - **NEW: Overlay/Inset selector** (`OVL_OPTS`): 1¼" Overlay (EN) adds $26/door +
-  $12/drawer front per catalog C2. ½" overlay and all insets $0. Persisted per quote
-  (`ovl`, defaults CN). Eclipse (frameless full-overlay) had no such concept.
+  $12/drawer front per catalog C2. ½" overlay and all insets $0, including the three
+  Modern insets (MOD FI / MOD BD / MOD SB per catalog C3 — added at Ben's request).
+  Persisted per quote (`ovl`, defaults CN). Eclipse (frameless) had no such concept.
 - Edge profile list → Shiloh's: 100/150/200/350/400/500/700/750 (dropped B-Alum,
   S-Alum, 3D aluminum profiles — GOLA/frameless only).
 - NOT auto-priced (manual quote items, see BUILD-FLAGGED.md): custom paint $750
