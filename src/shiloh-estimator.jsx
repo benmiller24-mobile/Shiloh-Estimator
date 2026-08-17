@@ -10909,7 +10909,7 @@ function WarrantyRequest({user, profile, supabase, onLogout, onBack}) {
   const [origOrderNum, setOrigOrderNum] = useState("");
   const [origOrderDate, setOrigOrderDate] = useState("");
   const _wp=ldPrefs();
-  const [dealerName, setDealerName] = useState(profile?.business_name || "");
+  const [dealerName, setDealerName] = useState(profile?.business_name || ldPrefs().bizName || "");
   const [dealerCode, setDealerCode] = useState(_wp.dealerCode || "");
   const [contactName, setContactName] = useState(profile?.full_name || "");
   const [contactPhone, setContactPhone] = useState(_wp.contactPhone || "");
@@ -11227,7 +11227,7 @@ function SampleOrdering({user, profile, supabase, onLogout, onBack}) {
 
   // Shared fields
   const _sp=ldPrefs();
-  const [dealerName, setDealerName] = useState(profile?.business_name || "");
+  const [dealerName, setDealerName] = useState(profile?.business_name || ldPrefs().bizName || "");
   const [dealerCode, setDealerCode] = useState(_sp.dealerCode || "");
   const [contactName, setContactName] = useState(profile?.full_name || "");
   const [contactPhone, setContactPhone] = useState(_sp.contactPhone || "");
@@ -11964,7 +11964,7 @@ function ExpressPartsOrder({user, profile, supabase, onLogout, onBack}) {
 
   const [expressType, setExpressType] = useState(null);
   const _ep=ldPrefs();
-  const [dealerName, setDealerName] = useState(profile?.business_name || "");
+  const [dealerName, setDealerName] = useState(profile?.business_name || ldPrefs().bizName || "");
   const [dealerCode, setDealerCode] = useState(_ep.dealerCode || "");
   const [contactName, setContactName] = useState(profile?.full_name || "");
   const [contactPhone, setContactPhone] = useState(_ep.contactPhone || "");
@@ -12668,7 +12668,7 @@ function ExtraDiscountForm({
   // Form state — the names mirror PDF fields where practical.
   const [pctVal, setPctVal]       = useState("");         // radio value "0".."9"
   const [salesRep, setSalesRep]   = useState(profile?.full_name || "");
-  const [dealerName, setDealerName] = useState(profile?.business_name || "");
+  const [dealerName, setDealerName] = useState(profile?.business_name || ldPrefs().bizName || "");
   const [dealerNum, setDealerNum] = useState(initialDealerCode || "");
   const [dealerPO, setDealerPO]   = useState(initialPO || "");
   const [jobName,  setJobName]    = useState(initialJobName || quoteName || "");
@@ -12993,6 +12993,7 @@ function ExtraDiscountForm({
 function App({user, profile, supabase, onLogout, onBack, onAdmin, initialQuoteId}){
   const initRef=useRef(null); // tracks user.id to prevent resetting on token refresh
   const[nm,sNm]=useState("Untitled Project"),[pid,sPid]=useState(uid()),[po,sPo]=useState(""),[dlrCode,sDlrCode]=useState(()=>ldPrefs().dealerCode||"");
+  const[bizName,sBizName]=useState(()=>ldPrefs().bizName||profile?.business_name||"");
   const[sp,sSp]=useState("White Oak"),[cx,sCx]=useState("Standard");
   const[door,sDoor]=useState("HNVR"),[drwF,sDrwF]=useState("DF-HNVR"),[glaze,sGlaze]=useState("NONE");
   const[highlight,sHL]=useState("NONE"),[charT1,sCT1]=useState("NONE"),[charT2,sCT2]=useState("NONE");
@@ -13282,7 +13283,7 @@ function App({user, profile, supabase, onLogout, onBack, onAdmin, initialQuoteId
         setTF("Lower Door Style",door);
         setTF("Drawer Front Style",drwF||"");
         setTF("Order Date",new Date().toLocaleDateString());
-        setTF("Business Name",profile?.business_name||"");
+        setTF("Business Name",bizName||profile?.business_name||"");
         setTF("Customer #",dlrCode||"");
         setTF("Salesperson/Contact",profile?.full_name||"");
         setTF("Job Name",nm||"");
@@ -13357,7 +13358,7 @@ function App({user, profile, supabase, onLogout, onBack, onAdmin, initialQuoteId
           const ovenForm=ovenDoc.getForm();
           const setOF=(name,val)=>{try{ovenForm.getTextField(name).setText(winSafe(val)||"");}catch(e){}};
           // Fill order info from parent order
-          setOF("Business Name",profile?.business_name||"");
+          setOF("Business Name",bizName||profile?.business_name||"");
           setOF("Customer #",dlrCode||"");
           setOF("Order P.O. Number",po||"");
           setOF("Job Name",nm||"");
@@ -13487,9 +13488,13 @@ function App({user, profile, supabase, onLogout, onBack, onAdmin, initialQuoteId
               <label className="lb">Project Name</label>
               <input className="inp" value={nm} onChange={e=>sNm(e.target.value)} style={{fontFamily:F.d,fontSize:mob?14:16,fontWeight:600}}/>
             </div>
+            <div style={{flex:"0 0 180px",marginBottom:mob?8:0}}>
+              <label className="lb">Business Name</label>
+              <input className="inp" value={bizName} onChange={e=>{sBizName(e.target.value);svPrefs({...ldPrefs(),bizName:e.target.value})}} placeholder="Business Name" style={{fontFamily:F.d,fontSize:mob?14:16,fontWeight:600}}/>
+            </div>
             <div style={{flex:"0 0 140px",marginBottom:mob?8:0}}>
-              <label className="lb">Dealer #</label>
-              <input className="inp" value={dlrCode} onChange={e=>{sDlrCode(e.target.value);svPrefs({...ldPrefs(),dealerCode:e.target.value})}} placeholder="Dealer #" style={{fontFamily:F.d,fontSize:mob?14:16,fontWeight:600}}/>
+              <label className="lb">Customer #</label>
+              <input className="inp" value={dlrCode} onChange={e=>{sDlrCode(e.target.value);svPrefs({...ldPrefs(),dealerCode:e.target.value})}} placeholder="Customer #" style={{fontFamily:F.d,fontSize:mob?14:16,fontWeight:600}}/>
             </div>
             <div style={{flex:"0 0 140px",marginBottom:mob?8:0}}>
               <label className="lb">PO #</label>
