@@ -54,7 +54,7 @@ create policy "Admins can view all profiles" on public.profiles
 
 create policy "Users can update own profile" on public.profiles
   for update using (auth.uid() = id)
-  with check (auth.uid() = id and role = old.role);  -- prevent self-role-change
+  with check (auth.uid() = id);  -- role changes blocked by profiles_role_guard trigger below
 
 create policy "Admins can update all profiles" on public.profiles
   for update using (
@@ -256,3 +256,20 @@ create trigger admin_quote_overrides_updated_at before update on public.admin_qu
   for each row execute procedure public.update_updated_at();
 
 grant all on public.admin_quote_overrides to authenticated;
+
+
+-- 16. Role-escalation guard: non-admins cannot change profile roles
+--     (replaces the invalid old.role WITH CHECK from the original script)
+create or replace function public.prevent_role_escalation()
+returns trigger as $$
+begin
+  if new.role is distinct from old.role and not public.is_admin() then
+    raise exception 'Only admins can change profile roles';
+  end if;
+  return new;
+end;
+$$ language plpgsql security definer;
+
+drop trigger if exists profiles_role_guard on public.profiles;
+create trigger profiles_role_guard before update on public.profiles
+  for each row execute procedure public.prevent_role_escalation();
