@@ -3219,7 +3219,46 @@ WEP375-L/R|196|Q11|W
 WEP378-L/R|204|Q11|W
 3SRMF|30|R7|M
 3SRM11/2F|30|R7|M
-3SRM3F|30|R7|M
+7/8SC|11.07|R1|M
+7/8TR|11.07|R1|M
+3/4UC|11.07|R1|M
+1 1/16UC|14|R1|M
+1 1/16UCB|14|R1|M
+1 3/4UCA|16|R1|M
+1 3/4UCC|16|R1|M
+1 3/16UC|14|R2|M
+3/4OSC|11.07|R2|M
+1 1/4OSC|11.07|R2|M
+3/4ISC|11.07|R2|M
+3/4QR|11.07|R2|M
+3/4SB|11.07|R2|M
+7/8BM|11.07|R2|M
+7/8TD|11.07|R2|M
+1 3/4CRN|16.60|R3|M
+3 1/2CRN|17.39|R3|M
+3SCR|17.39|R3|M
+5SCR|23.72|R3|M
+3FCR|17.39|R3|M
+5FCR|23.72|R4|M
+31/4FCR|17.39|R4|M
+41/4FCR|23.72|R4|M
+4 3/4CAM|23.72|R4|M
+3 7/8CAM|17.39|R4|M
+3/4DM|14.23|R5|M
+3/4RM|14.23|R5|M
+1 1/2 STP|13.28|R5|M
+1 1/2 RTP|13.28|R5|M
+1 1/2 CTP|13.28|R5|M
+1 1/2 DTP|13.28|R5|M
+1 1/2 RGCT|13.28|R6|M
+41/4FBC|18.60|R6|M
+21/2CHR|14.23|R6|M
+41/4FBP|18.60|R6|M
+3/4BSM|11.07|R6|M
+3SRM10F|60|R7|M
+FM-1|21|R8|M
+FM-2|21|R8|M
+FM-3|21|R8|M
 TUK|31.63|Q57|A
 TUB|70|Q57|A
 GST|384.50|Q57|A
@@ -5671,54 +5710,54 @@ OMUF30-27|1580|L36|T
 OMUF30-30|1640|L36|T
 OMUF33|1505|L35|T
 OMUF33-27|1656|L36|T
-OVF3104|440|Q17|T
-OVF3110|440|Q17|T
-OVF3261/2|230|Q17|T
-OVF333|230|Q17|T
-OVF336|245|Q17|T
-OVF339|254|Q17|T
-OVF342|261|Q17|T
-OVF345|280|Q17|T
-OVF348|280|Q17|T
-OVF351|298|Q17|T
-OVF354|298|Q17|T
-OVF357|316|Q17|T
-OVF360|316|Q17|T
-OVF363|334|Q17|T
-OVF366|334|Q17|T
-OVF369|339|Q17|T
-OVF372|344|Q17|T
-OVF375|349|Q17|T
-OVF378|353|Q17|T
-OVF380|356|Q17|T
-OVF386|366|Q17|T
-OVF389|369|Q17|T
-OVF392|372|Q17|T
-OVF398|372|Q17|T
-OVF6104|508|Q17|T
-OVF6110|508|Q17|T
-OVF6261/2|309|Q17|T
-OVF633|309|Q17|T
-OVF636|315|Q17|T
-OVF639|320|Q17|T
-OVF642|321|Q17|T
-OVF645|338|Q17|T
-OVF648|338|Q17|T
-OVF651|354|Q17|T
-OVF654|354|Q17|T
-OVF657|370|Q17|T
-OVF660|370|Q17|T
-OVF663|386|Q17|T
-OVF666|386|Q17|T
-OVF669|392|Q17|T
-OVF672|398|Q17|T
-OVF675|400|Q17|T
-OVF678|402|Q17|T
-OVF680|404|Q17|T
-OVF686|413|Q17|T
-OVF689|419|Q17|T
-OVF692|426|Q17|T
-OVF698|426|Q17|T
+OVF3104|440|Q17|F
+OVF3110|440|Q17|F
+OVF3261/2|230|Q17|F
+OVF333|230|Q17|F
+OVF336|245|Q17|F
+OVF339|254|Q17|F
+OVF342|261|Q17|F
+OVF345|280|Q17|F
+OVF348|280|Q17|F
+OVF351|298|Q17|F
+OVF354|298|Q17|F
+OVF357|316|Q17|F
+OVF360|316|Q17|F
+OVF363|334|Q17|F
+OVF366|334|Q17|F
+OVF369|339|Q17|F
+OVF372|344|Q17|F
+OVF375|349|Q17|F
+OVF378|353|Q17|F
+OVF380|356|Q17|F
+OVF386|366|Q17|F
+OVF389|369|Q17|F
+OVF392|372|Q17|F
+OVF398|372|Q17|F
+OVF6104|508|Q17|F
+OVF6110|508|Q17|F
+OVF6261/2|309|Q17|F
+OVF633|309|Q17|F
+OVF636|315|Q17|F
+OVF639|320|Q17|F
+OVF642|321|Q17|F
+OVF645|338|Q17|F
+OVF648|338|Q17|F
+OVF651|354|Q17|F
+OVF654|354|Q17|F
+OVF657|370|Q17|F
+OVF660|370|Q17|F
+OVF663|386|Q17|F
+OVF666|386|Q17|F
+OVF669|392|Q17|F
+OVF672|398|Q17|F
+OVF675|400|Q17|F
+OVF678|402|Q17|F
+OVF680|404|Q17|F
+OVF686|413|Q17|F
+OVF689|419|Q17|F
+OVF692|426|Q17|F
+OVF698|426|Q17|F
 RH10|42|SH|T
 RH11|42|SH|T
 RH12|42|SH|T
@@ -7919,7 +7958,7 @@ PVAL-S75|512|Q26|A
 PVAL-S78|520|Q26|A
 PVAL-S81|528|Q26|A
 PVAL-S84|536|Q26|A
-RCM3|17|SH|M
+RCM3|17.39|R9|M
 SMST|6|B28|A
 SNTAVAL36|149|Q20|A
 SNTAVAL39|159|Q20|A
@@ -8250,7 +8289,7 @@ const isBCF=(s)=>s==="BCF";
 const BCF_NOTE="• Door frame for use on front of glass front beverage coolers\n• Cut for glass will be filled with trim of same wood species\n• BCF available in Cherry, Maple, Red Oak, Select American Poplar, Hickory & Alder & are solid wood construction. No vertical or horizontal grain orientation available. Solid wood color tones may vary from veneer doors.\n• BCF will match those of the lower cabinet door style of adjoining components\n• Lower door style required if not ordered with adjoining components.\n• BCF with painted finishes as Metro will be MDF\n• Available up to 24\" wide and 80\" tall. Specify width and height when ordering\n• Custom rail widths available on all except mitered door styles\n• No custom grooving, notching, or drilling available";
 const CO_NOTE="• Column overlays are sent loose and must be field installed to cabinets\n• Column overlays are matching finish hardwood and attached to a 3\" wide hardwood filler\n• Pricing is per linear inch for each individual column\n• Plinth blocks are 3\" wide by 2 1/2\" tall at top and bottom (Except for use with flush toe kick)\n• Flush toe kick columns have a 6 1/2\" tall plinth block on bottom\n• Column overlays may also be applied to 3\" × 3\" angle fillers, 3\" columns and 3\" end panels\n• Column overlays will cause frameless overlay doors to bump plinth block when opened past 90°\n• Column overlays may also necessitate special counter tops when used with base cabinets\n• Width and depth modifications not available\n• Spindle modifications not available\n• Plinth blocks width modifications not available\n• Custom height of plinth blocks is available for $400 list Upcharge per column\n• Plinth blocks only available on top and bottom of column overlays\n• Column overlay may be ordered unassembled, must specify wall, base, or utility height, sold in complete sets only, field miter and assembly required\n• Column overlays may be ordered in a different color than the cabinet. Contact customer service for price and availability\n• Not available in: TFL, Reconstituted White Oak, Reconstituted Walnut, HPL & PV, Acrylic";
 let CO_DRAWING_B64=null;async function load_CO_DRAWING_B64(){if(!CO_DRAWING_B64){const m=await import("./pdf-co-drawing.js");CO_DRAWING_B64=m.default;}return CO_DRAWING_B64;};
-const SKU_LABELS={"F3":"Filler","OVF3":"Overlay Filler","PROFILE FILLER":"Profile Filler","W2436-2D":"Wall 24x36 Two-Door (see W24-2D36)","RW3624-24":"Refrigerator Wall 36x24","RW3612-24":"Refrigerator Wall 36x12","RH57":"Range Hood 57\" Width","O3093":"Oven Cabinet 30x93","3/4TK":"3/4 Toe Kick Moulding","WBC33":"Wall Blind Corner 33","LSD":"Loose Standard Doors","SLBDF":"Slab Drawer Fronts","5PDF":"5 Piece Drawer Fronts","CUSTOM":"Custom Quote","REF":"Custom Refrigerator Panel","DP":"Dishwasher Panel","TUK":"Fill Stick & Marker (Touch-Up)","TUK(Fill Stick & Marker)":"Fill Stick & Marker (Touch-Up)","TUB":"Touch-Up Paint & Fill Stick","GST":"Gallon of Stain","QST":"Quart of Stain","ASC":"Aerosol Can (Touch-Up)","EDGTS":"Edge-Banded Panel Small (≤16 sq.ft)","EDGTL":"Edge-Banded Panel Large (>16 sq.ft)","EDGTN":"Edge-Banded Panel Narrow","BCFTA":"Bev Center Front (Natural Aluminum)","BCFTBL":"Bev Center Front (Matte Black Aluminum)","BCFTMB":"Bev Center Front (Matte Brass)","BCF":"Beverage Center Front","COS":"Column Overlay — Smooth","COF":"Column Overlay — Fluted","COR":"Column Overlay — Rope","SD81/2X11":"Sample Door 8½×11 (Standard)","SD121/2151/2":"Sample Door 12½×15½","CM 8 1/2 x 11":"Color Match Sample 8½×11","CM 12 1/2 x 15 1/2":"Color Match Sample 12½×15½"};
+const SKU_LABELS={"7/8SC":"7/8 Scribe Moulding","7/8TR":"7/8 Trim Moulding","3/4UC":"3/4 Under Cabinet Trim Moulding","1 1/16UC":"1 1/16 Under Cabinet Trim","1 1/16UCB":"1 1/16 Under Cab Bullnose Trim","1 3/4UCA":"1 3/4 Under Cabinet A","1 3/4UCC":"1 3/4 Under Cabinet C","1 3/16UC":"1 3/16 Under Cabinet Trim","3/4OSC":"3/4 Outside Corner Moulding","1 1/4OSC":"1 1/4 Outside Corner Moulding","3/4ISC":"3/4 Inside Corner Moulding","3/4QR":"3/4 Quarter Round Moulding","3/4SB":"3/4 Single Bead Moulding","7/8BM":"7/8 Batten Moulding","7/8TD":"7/8 Traditional Trim","1 3/4CRN":"1 3/4 Crown Moulding","3 1/2CRN":"3 1/2 Crown Moulding","3SCR":"3 Shaker Crown Moulding","5SCR":"5 Shaker Crown Moulding","3FCR":"3 Furniture Crown Moulding","5FCR":"5 Furniture Crown Moulding","31/4FCR":"3 1/4 Furniture Crown Moulding","41/4FCR":"4 1/4 Furniture Crown Moulding","4 3/4CAM":"4 3/4 Crown Applique Moulding","3 7/8CAM":"3 7/8 Crown Applique Moulding","3/4DM":"3/4 Dentil Moulding","3/4RM":"3/4 Rope Moulding","1 1/2 STP":"Square Counter Top Moulding","1 1/2 RTP":"Rounded Counter Top Moulding","1 1/2 CTP":"Cove Edge Counter Top Moulding","1 1/2 DTP":"Detail Edge Counter Top Moulding","1 1/2 RGCT":"Regency Counter Top Moulding","41/4FBC":"4 1/4 Furniture Base Chamfer","21/2CHR":"2 1/2 Chair Rail Moulding","41/4FBP":"4 1/4 Furniture Base Profile","3/4BSM":"3/4 Base Shoe Moulding","3SRM10F":"3 Sub Rail Moulding 10 Face","FM-1":"Mirror Frame Moulding 1","FM-2":"Mirror Frame Moulding 2","FM-3":"Mirror Frame Moulding 3","RCM3":"Reversible Crown Mounting Moulding","F3":"Filler","OVF3":"Overlay Filler","PROFILE FILLER":"Profile Filler","W2436-2D":"Wall 24x36 Two-Door (see W24-2D36)","RW3624-24":"Refrigerator Wall 36x24","RW3612-24":"Refrigerator Wall 36x12","RH57":"Range Hood 57\" Width","O3093":"Oven Cabinet 30x93","3/4TK":"3/4 Toe Kick Moulding","WBC33":"Wall Blind Corner 33","LSD":"Loose Standard Doors","SLBDF":"Slab Drawer Fronts","5PDF":"5 Piece Drawer Fronts","CUSTOM":"Custom Quote","REF":"Custom Refrigerator Panel","DP":"Dishwasher Panel","TUK":"Fill Stick & Marker (Touch-Up)","TUK(Fill Stick & Marker)":"Fill Stick & Marker (Touch-Up)","TUB":"Touch-Up Paint & Fill Stick","GST":"Gallon of Stain","QST":"Quart of Stain","ASC":"Aerosol Can (Touch-Up)","EDGTS":"Edge-Banded Panel Small (≤16 sq.ft)","EDGTL":"Edge-Banded Panel Large (>16 sq.ft)","EDGTN":"Edge-Banded Panel Narrow","BCFTA":"Bev Center Front (Natural Aluminum)","BCFTBL":"Bev Center Front (Matte Black Aluminum)","BCFTMB":"Bev Center Front (Matte Brass)","BCF":"Beverage Center Front","COS":"Column Overlay — Smooth","COF":"Column Overlay — Fluted","COR":"Column Overlay — Rope","SD81/2X11":"Sample Door 8½×11 (Standard)","SD121/2151/2":"Sample Door 12½×15½","CM 8 1/2 x 11":"Color Match Sample 8½×11","CM 12 1/2 x 15 1/2":"Color Match Sample 12½×15½"};
 const isCustom=(s)=>s==="CUSTOM";
 
 // ── Oven Cutout Spec Forms ──
