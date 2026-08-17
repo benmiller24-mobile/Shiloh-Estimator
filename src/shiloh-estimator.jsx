@@ -13419,7 +13419,7 @@ function App({user, profile, supabase, onLogout, onBack, onAdmin, initialQuoteId
         fl(`Order forms downloaded! Rooms: ${roomList}`);
       }
     }catch(err){console.error(err);fl("Error generating PDF — check console");}
-  },[items,sp,cx,door,drwF,drwBox,mat,intF,glaze,highlight,charT1,charT2,color,comp.tot,nm,fl,projType,contactPhone]);
+  },[items,sp,cx,door,drwF,drwBox,mat,intF,glaze,highlight,charT1,charT2,color,comp.tot,nm,fl,projType,contactPhone,bizName,dlrCode,po,edgePro,ovl,profile,user]);
 
   const spp=SP[sp]||0,cxp=CX[cx]||0;
 
