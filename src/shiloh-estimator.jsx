@@ -18,7 +18,6 @@ const _D=`
 ADCSN|31|S3|A
 ADCSS|31|S3|A
 AEB24|982|I73|A
-AES12|30|SH|A
 AES1230|225|E79|A
 AES1233|232|E79|A
 AES1236|239|E79|A
@@ -41,7 +40,6 @@ AGD24-LS|1739|E51|A
 AGD27-15D|2079|E52|A
 AGD27-LS-15D|2692|E52|A
 ARP/AFP GFD|7|B28|A
-AS12|30|SH|A
 AS1230|225|E79|A
 AS1233|232|E79|A
 AS1236|239|E79|A
@@ -93,15 +91,11 @@ BBTAHOE|0.64|Q45|A
 BBWARD|0.64|Q45|A
 BBWMTN|0.64|Q45|A
 BCF|1|Q10|A
-BCF-INSET|732|SH|A
-BEP3-FTK-R|158|SH|A
-C1|27|SH|A
 C1 A1DR|30|E49|A
 C1 BWRC6|5|I62|A
 C1 WNDPH|30|E66|A
 C1 WNDSD|30|E68|A
 C1 WRX2730|21|E70|A
-C1 WWRC|30|E74|A
 CBL-TM1|806|Q29|A
 CBL-TO0|353|Q29|A
 CBL105X10|545|Q34|A
@@ -110,10 +104,8 @@ CBL106X16|625|Q34|A
 CBL114X6|520|Q34|A
 CBL115X9|560|Q34|A
 CBL116X12|600|Q34|A
-CBL4|31|SH|A
 CBL431/2X51/2|275|Q31|A
 CBL441/2X81/4|440|Q31|A
-CBL5|61|SH|A
 CBL55X61/2|210|Q31|A
 CBL561/2X81/2|240|Q31|A
 CBL58X101/2|270|Q31|A
@@ -161,8 +153,6 @@ CR9|264|Q56|A
 CROT|42|C1|A
 CRP GFD|7|B28|A
 CTP|13.28|R5|A
-D11|33|SH|A
-D24|33|SH|A
 DEMD|1844|B10|A
 DF-ASVL|5|B29|A
 DF-BCP|6|B29|A
@@ -190,15 +180,11 @@ DL18301/2|187|N46|A
 DL21301/2|193|N46|A
 DL24301/2|199|N46|A
 DLTN|5|B28|A
-DMWSD15-FHD|1847|SH|A
-DMWSD18-FHD|1964|SH|A
-DMWSD21-FHD|2021|SH|A
 DP|0.50|Q10|A
 DPS-27|151|Q45|A
 DPS-33|185|Q45|A
 DPS-42|239|Q45|A
 DPS-PEG-4|30|Q45|A
-DR27-15D-LS|2674|SH|A
 DRAUS27|2100|P26|A
 DRB12-3|600|P8|A
 DRB15-3|619|P8|A
@@ -442,12 +428,9 @@ FPOSR6-24|485|Q52|A
 FPSSL|788|Q51|A
 FRLG|175|Q35|A
 FTK|89|C1|A
-FTK FLUSH TOE|89|SH|A
 FVDEP|723|Q3|A
 FVTDEP|723|Q3|A
 FWBA|146|C1|A
-G57|22|SH|A
-GD27-LS-15D|2692|SH|A
 GFD|6|B28|A
 GLBK|5|B28|A
 GRNS|6|B28|A
@@ -466,13 +449,8 @@ IFBDEP|873|Q4|A
 IFVDEP|873|Q4|A
 IFVTDEP|873|Q4|A
 INFBDEP|656|Q2|A
-INFBDEPL|656|SH|A
-INFBDEPR|656|SH|A
-INFUTDEP93-27R|1787|SH|A
 INFVDEP|656|Q2|A
 INFVTDEP|656|Q2|A
-INFVTDEPL|656|SH|A
-INFVTDEPR|656|SH|A
 INFWDEP12|477|Q2|A
 INFWDEP15|477|Q2|A
 INFWDEP18|477|Q2|A
@@ -536,13 +514,11 @@ LPDC3015|840|I81|A
 LPDC3016|860|I81|A
 LPDC3017|880|I81|A
 LPDC3018|900|I81|A
-MB1|42|SH|A
 MB1 42(--)|2311|G3|A
 MB1 48(--)|2509|G3|A
 MB1 54(--)|2706|G3|A
 MB1 60(--)|2907|G3|A
 MB1 66(--)|3111|G3|A
-MB2|72|SH|A
 MB2 72(--)|3314|G4|A
 MB2 78(--)|3516|G4|A
 MB2 84(--)|3712|G4|A
@@ -776,15 +752,9 @@ PED1|36|SH|A
 PED2|36|SH|A
 PED3|36|F4|A
 PLWT|0.35|Q49|A
-PRH15|30|SH|A
-PRH16|30|SH|A
 PTLN|5|B28|A
-Q47|34|SH|A
 RCK|146|C1|A
 REF|1.25|Q9|A
-REP11/29330-FTK-L|514|SH|A
-REP11/29330-FTK-R|514|SH|A
-REP3/49627-FTK-L|434|SH|A
 RGCT|13.28|R6|A
 RH203630|5095|SH|A
 RH203636|5145|SH|A
@@ -964,7 +934,6 @@ RH577354|5744|SH|A
 RMK|146|C1|A
 RMLB|5|B28|A
 RTP|13.28|R5|A
-S7|34|SH|A
 SCDL|6|B28|A
 SCSB|850|S4|A
 SD121/2151/2|155|S2|A
@@ -1001,7 +970,6 @@ SHBY|5|B28|A
 SHIL-M-DISP|4800|S5|A
 SLBB|1|Q48|A
 SLBB-FTK|1|Q48|A
-SO24-2D-FHD|1562|SH|A
 SPCSB|850|S3|A
 SR11|126|I66|A
 SR8|100|I66|A
@@ -1078,11 +1046,6 @@ SW1DR48--(21)-75|2686|SH|A
 TBNFT|230|Q35|A
 TCD30|30|Q52|A
 TCD36|36|Q52|A
-TCS4D24-1DR|779|SH|A
-TCS4D27-1DR|815|SH|A
-TCS4D30-1DR|830|SH|A
-TCS4D33-1DR|843|SH|A
-TCS4D36-1DR|862|SH|A
 TK|8.70|R9|M
 TKMSLBB|150|Q48|A
 TMD|210|B13|A
@@ -1095,20 +1058,7 @@ WS45|917|E77|A
 WSVA39|934|E78|A
 WSVA42|984|E78|A
 WSVA45|1034|E78|A
-X10|440|SH|A
-X10X6|150|SH|A
-X10X7|150|SH|A
-X10X8|150|SH|A
-X11|325|SH|A
 X12|300|SH|A
-X13|350|SH|A
-X15|545|SH|A
-X16|625|SH|A
-X3|375|SH|A
-X4|540|SH|A
-X5|580|SH|A
-X6|520|SH|A
-X8|275|SH|A
 X9|300|SH|A
 XMD|825|B13|A
 A130DR21|868|E49|W
@@ -1154,7 +1104,6 @@ A148DR2430-LS|1951|E49|W
 A148DR27-15D|2052|E50|W
 A148DR27-15D-LS|3025|E50|W
 A1DR|30|E50|W
-A1DR-LS|30|SH|W
 A1DR2130-LS|1263|E49|W
 A1DR2430-LS|1282|E49|W
 A1DR27-15D|1376|E50|W
@@ -1190,8 +1139,6 @@ A2448|1024|E40|W
 A2448-LS|1716|E40|W
 A27-15D|909|E43|W
 A27-LS-15D|1523|E43|W
-A2DR|48|SH|W
-A2DR-LS|48|SH|W
 A2DR21|1309|E47|W
 A2DR21-LS|1705|E47|W
 A2DR24|1330|E47|W
@@ -1565,7 +1512,6 @@ RW30-3012|662|E13|W
 RW30-3015|715|E13|W
 RW30-3018|767|E13|W
 RW30-3021|806|E13|W
-RW3015-30D|715|SH|W
 RW33|429|E13|W
 RW33-27|625|E13|W
 RW33-30|685|E13|W
@@ -1697,8 +1643,6 @@ SA24--(21)-57|1451|SH|W
 SA24--(21)-60|1523|SH|W
 SA24--(21)-63|1596|SH|W
 SA24--(21)-66|1669|SH|W
-SA27--(12)-15D-42|1490|SH|W
-SA27--(12)-15D-45|1603|SH|W
 SA27--(12)-15D-48|1716|SH|W
 SA27--(12)-15D-51|1829|SH|W
 SA27--(12)-15D-54|1941|SH|W
@@ -1706,7 +1650,6 @@ SA27--(12)-15D-57|2055|SH|W
 SA27--(12)-15D-60|2167|SH|W
 SA27--(12)-15D-63|2280|SH|W
 SA27--(12)-15D-66|2393|SH|W
-SA27--(15)-15D-45|1603|SH|W
 SA27--(15)-15D-48|1716|SH|W
 SA27--(15)-15D-51|1829|SH|W
 SA27--(15)-15D-54|1941|SH|W
@@ -1856,8 +1799,6 @@ SW24--(12)-2D-57|1400|SH|W
 SW24--(12)-2D-60|1471|SH|W
 SW24--(12)-2D-63|1542|SH|W
 SW24--(12)-2D-66|1613|SH|W
-SW24--(12)-42|833|SH|W
-SW24--(12)-45|872|SH|W
 SW24--(12)-48|911|SH|W
 SW24--(12)-51|980|SH|W
 SW24--(12)-54|1048|SH|W
@@ -1873,7 +1814,6 @@ SW24--(15)-2D-57|1400|SH|W
 SW24--(15)-2D-60|1471|SH|W
 SW24--(15)-2D-63|1542|SH|W
 SW24--(15)-2D-66|1613|SH|W
-SW24--(15)-45|872|SH|W
 SW24--(15)-48|911|SH|W
 SW24--(15)-51|980|SH|W
 SW24--(15)-54|1048|SH|W
@@ -1907,7 +1847,6 @@ SW24--(21)-57|1117|SH|W
 SW24--(21)-60|1185|SH|W
 SW24--(21)-63|1254|SH|W
 SW24--(21)-66|1322|SH|W
-SW27--(12)-42|949|SH|W
 SW27--(12)-45|988|SH|W
 SW27--(12)-48|1026|SH|W
 SW27--(12)-51|1098|SH|W
@@ -2456,8 +2395,6 @@ SWG27|495|E26|W
 SWG30|523|E26|W
 SWG33|553|E26|W
 SWG36|582|E26|W
-SWSC24--(12)-42|1596|SH|W
-SWSC24--(12)-45|1705|SH|W
 SWSC24--(12)-48|1813|SH|W
 SWSC24--(12)-51|1923|SH|W
 SWSC24--(12)-54|2033|SH|W
@@ -2465,7 +2402,6 @@ SWSC24--(12)-57|2142|SH|W
 SWSC24--(12)-60|2251|SH|W
 SWSC24--(12)-63|2360|SH|W
 SWSC24--(12)-66|2469|SH|W
-SWSC24--(15)-45|1705|SH|W
 SWSC24--(15)-48|1813|SH|W
 SWSC24--(15)-51|1923|SH|W
 SWSC24--(15)-54|2033|SH|W
@@ -2599,13 +2535,10 @@ W1827|354|E4|W
 W1830|372|E4|W
 W1833|411|E4|W
 W1836|449|E4|W
-W1836L|449|SH|W
-W1836R|449|SH|W
 W1839|501|E4|W
 W1842|552|E4|W
 W1845|604|E4|W
 W1848|655|E4|W
-W1DR|30|SH|W
 W1DR24-2D|786|E21|W
 W21|262|E4|W
 W2112|262|E4|W
@@ -2786,7 +2719,6 @@ W278DR27|1856|E20|W
 W278DR30|1886|E20|W
 W278DR33|1916|E20|W
 W278DR36|1946|E20|W
-W2DR|48|SH|W
 W2DR1248|1039|E20|W
 W2DR1251|1078|E20|W
 W2DR1254|1116|E20|W
@@ -4009,7 +3941,6 @@ WOSD3639|1207|E59|W
 WOSD3642|1301|E59|W
 WOSD3645|1395|E59|W
 WOSD3648|1489|E59|W
-WP24-2D|1043|E56|W
 WP2430|901|E56|W
 WP2433|940|E56|W
 WP2436|979|E56|W
@@ -4228,59 +4159,6 @@ WPR3639|1570|E60|W
 WPR3642|1664|E60|W
 WPR3645|1758|E60|W
 WPR3648|1852|E60|W
-WRX1530|10|E70|W
-WRX1533|12|E70|W
-WRX1536|13|E70|W
-WRX1539|15|E70|W
-WRX1542|16|E70|W
-WRX1830|10|E70|W
-WRX1833|13|E70|W
-WRX1836|14|E70|W
-WRX1839|17|E70|W
-WRX1842|17|E70|W
-WRX2130|14|E70|W
-WRX2136|18|E70|W
-WRX2139|19|E70|W
-WRX2142|22|E70|W
-WRX2433|20|SH|W
-WRX2436|22|E70|W
-WRX2439|24|E70|W
-WRX2442|27|E70|W
-WRX2730|21|SH|W
-WRX2733|24|SH|W
-WRX2736|27|E70|W
-WRX2739|30|SH|W
-WRX2742|33|E70|W
-WRX3015|786|E70|W
-WRX3018|821|E70|W
-WRX3024|871|E70|W
-WRX3030|960|E70|W
-WRX3033|1104|E70|W
-WRX3036|1248|E70|W
-WRX3039|1345|E70|W
-WRX3042|1441|E70|W
-WRX3045|1537|E70|W
-WRX3048|1633|E70|W
-WRX3315|821|E70|W
-WRX3318|855|E70|W
-WRX3324|901|E70|W
-WRX3330|995|E70|W
-WRX3333|1144|E70|W
-WRX3336|1293|E70|W
-WRX3339|1393|E70|W
-WRX3342|1493|E70|W
-WRX3345|1593|E70|W
-WRX3348|1693|E70|W
-WRX3615|855|E70|W
-WRX3618|890|E70|W
-WRX3624|936|E70|W
-WRX3630|1034|E70|W
-WRX3633|1189|E70|W
-WRX3636|1344|E70|W
-WRX3639|1448|E70|W
-WRX3642|1551|E70|W
-WRX3645|1654|E70|W
-WRX3648|1757|E70|W
 WS2448|565|E77|W
 WS2452|588|E77|W
 WS2454|610|E77|W
@@ -4636,11 +4514,9 @@ WVAL-S78|1340|Q28|W
 WVAL-S84|1400|Q28|W
 WVAL-S90|1520|Q28|W
 WVAL-S96|1580|Q28|W
-WVAL7|20|SH|W
 WVAL730|595|E19|W
 WVAL733|625|E19|W
 WVAL736|657|E19|W
-WVAL8|30|E19|W
 WVAL830|595|E19|W
 WVAL833|625|E19|W
 WVAL836|657|E19|W
@@ -4754,7 +4630,6 @@ B15-3|530|I22|B
 B15-4|541|I24|B
 B15-FHD|476|I8|B
 B15-RT|912|I10|B
-B15R-RT|912|SH|B
 B18|487|I2|B
 B18-2HD|870|I21|B
 B18-2TD|1306|I23|B
@@ -4762,7 +4637,6 @@ B18-3|569|I22|B
 B18-4|582|I24|B
 B18-FHD|487|I8|B
 B18-RT|923|I10|B
-B18L-RT|923|SH|B
 B21|522|I2|B
 B21-2HD|911|I21|B
 B21-2TD|1347|I23|B
@@ -4770,7 +4644,6 @@ B21-3|610|I22|B
 B21-4|623|I24|B
 B21-FHD|522|I8|B
 B21-RT|958|I10|B
-B21R-RT|958|SH|B
 B24|541|I2|B
 B24-2D|738|I2|B
 B24-2HD|946|I21|B
@@ -4781,7 +4654,6 @@ B24-FHD|541|I8|B
 B24-FHD-2D|738|I8|B
 B24-RT|977|I10|B
 B24-RT-2D|1175|I10|B
-B24R-RT|977|SH|B
 B27|685|I2|B
 B27-1DR|656|I2|B
 B27-2HD|985|I21|B
@@ -4840,7 +4712,6 @@ B45|882|I2|B
 B45-FHD|882|I8|B
 B48|893|I2|B
 B48-FHD|893|I8|B
-B7|33|SH|B
 B9|417|I2|B
 B9-FHD|417|I8|B
 BAD6|1240|I64|B
@@ -4963,7 +4834,6 @@ BL36-SS-PH|2046|I40|B
 BL3D36|1834|I27|B
 BL3D39|2384|I27|B
 BL3D42|2574|I27|B
-BL42|36|SH|B
 BL4D36|1856|I28|B
 BL4D39|2526|I28|B
 BL4D42|2716|I28|B
@@ -5062,19 +4932,14 @@ BWS27|1653|I59|B
 BWS30|1741|I59|B
 BWS33|1830|I59|B
 BWS36|1914|I59|B
-BXC1|34|Q44|B
 BXC1341/2|660|Q44|B
 BXC142|696|Q44|B
-BXC2|34|Q44|B
 BXC2341/2|495|Q44|B
 BXC242|522|Q44|B
-BXC3|34|Q44|B
 BXC3341/2|604|Q44|B
 BXC342|646|Q44|B
-BXC4|34|Q44|B
 BXC4341/2|453|Q44|B
 BXC442|484|Q44|B
-BXCF|34|Q44|B
 BXCF341/2|400|Q44|B
 BXCF42|427|Q44|B
 DSB36-LS|1551|I41|B
@@ -5389,8 +5254,6 @@ ISL19642|8133|SH|B
 ISL19645|8183|SH|B
 ISL19648|8233|SH|B
 ISL2|42|SH|B
-ISL2 36|9|K4|B
-ISL2 39|9|K4|B
 ISL4|45|K5|B
 ISL436|3426|K5|B
 ISL43624|3426|SH|B
@@ -5784,7 +5647,6 @@ RH51|42|SH|T
 RH52|42|SH|T
 RH53|42|SH|T
 RH54|42|SH|T
-RH56CH|31|G50|T
 RH60|30|SH|T
 RH62|42|G56|T
 RH63 30|5294|G57|T
@@ -5795,7 +5657,6 @@ RH63 54|5894|G57|T
 RH63 60|6044|G57|T
 RH63 66|6194|G57|T
 RH63 72|6344|G57|T
-RH63CH|30|G58|T
 RH65|30|SH|T
 RH66|30|SH|T
 RH67|42|SH|T
@@ -5934,7 +5795,6 @@ TL27-4-341/2|520|Q41|T
 TL27-4-42|580|Q41|T
 TL27-5-341/2|671|Q41|T
 TL27-5-42|751|Q41|T
-TL28|25|SH|T
 TL28-3-341/2|500|Q41|T
 TL28-3-42|560|Q41|T
 TL28-4-341/2|510|Q41|T
@@ -6190,7 +6050,6 @@ U1890|1184|L2|T
 U1890-27|1302|L2|T
 U1893|1260|L2|T
 U1893-27|1386|L2|T
-U1893R|1260|SH|T
 U1896|1336|L2|T
 U1896-27|1470|L2|T
 U21-30|1313|L3|T
@@ -6256,7 +6115,6 @@ U2493|1518|L2|T
 U2493-27|1670|L2|T
 U2493-2D|1819|L2|T
 U2493-2D-27|2001|L2|T
-U2493L|1518|SH|T
 U2496|1610|L2|T
 U2496-27|1771|L2|T
 U2496-2D|1918|L2|T
@@ -6331,7 +6189,6 @@ U3693|2004|L2|T
 U3693-27|2204|L2|T
 U3696|2125|L2|T
 U3696-27|2338|L2|T
-U3DR|84|SH|T
 UC3(102-114)-27|1526|Q15|T
 UC3(102-114)-27-CL|1906|Q15|T
 UC3(84-96)-27|1221|Q15|T
@@ -6372,7 +6229,6 @@ UT1884|1033|L4|T
 UT1887|1109|L4|T
 UT1890|1184|L4|T
 UT1893|1260|L4|T
-UT1893-RT-27R|2258|SH|T
 UT1896|1336|L4|T
 UT21-27|1253|L5|T
 UT21-30|1313|L5|T
@@ -6736,7 +6592,6 @@ UVTH1887|1459|N52|V
 UVTH1890|1534|N52|V
 UVTH1893|1610|N52|V
 VAL|60|Q36|V
-VAL7|51|Q20|V
 VAL736|149|Q20|V
 VAL739|159|Q20|V
 VAL742|168|Q20|V
@@ -6754,7 +6609,6 @@ VAL775|299|Q20|V
 VAL778|307|Q20|V
 VAL781|315|Q20|V
 VAL784|323|Q20|V
-VAL8|36|Q20|V
 VAL836|149|Q20|V
 VAL839|159|Q20|V
 VAL842|168|Q20|V
@@ -6784,7 +6638,6 @@ VB21-3|553|N7|V
 VB24|476|N2|V
 VB24-2D|621|N2|V
 VB24-3|569|N7|V
-VB24-FHD-2D|817|SH|V
 VB27|553|N2|V
 VB27-1DR|526|N2|V
 VB27-3|618|N7|V
@@ -6881,7 +6734,6 @@ VSD60|1063|N6|V
 VTB12|447|N22|V
 VTB12-3|511|N27|V
 VTB12-4|523|N28|V
-VTB12L|447|SH|V
 VTB15|476|N22|V
 VTB15-3|530|N27|V
 VTB15-4|541|N28|V
@@ -6927,19 +6779,16 @@ VTC1 69-1B-(-)|2843|O2|V
 VTC1 69-2B-(-)|2838|O3|V
 VTC1 72-1B-(-)|2859|O2|V
 VTC1 72-2B-(-)|2854|O3|V
-VTC10|24|O17|V
 VTC1024|1897|O17|V
 VTC1027|1934|O17|V
 VTC1030|1946|O17|V
 VTC1033|1979|O17|V
 VTC1036|2001|O17|V
-VTC11|24|O18|V
 VTC1124|1936|O18|V
 VTC1127|1970|O18|V
 VTC1130|2002|O18|V
 VTC1133|2035|O18|V
 VTC1136|2057|O18|V
-VTC12|24|O19|V
 VTC1224|1722|O19|V
 VTC1227|1759|O19|V
 VTC1230|1771|O19|V
@@ -6949,7 +6798,6 @@ VTC1239|1855|O19|V
 VTC1242|1884|O19|V
 VTC1245|1912|O19|V
 VTC1248|1941|O19|V
-VTC13|24|O20|V
 VTC1324|2315|O20|V
 VTC1327|2447|O20|V
 VTC1330|2580|O20|V
@@ -6991,22 +6839,17 @@ VTC1769-1B|4056|O24|V
 VTC1769-2B|4256|O25|V
 VTC1772-1B|4095|O24|V
 VTC1772-2B|4295|O25|V
-VTC18|24|O26|V
 VTC1824|2371|O26|V
 VTC1827|2418|O26|V
 VTC1830|2433|O26|V
 VTC1833|2474|O26|V
 VTC1836|2501|O26|V
-VTC19|24|O27|V
 VTC1924|2571|O27|V
 VTC1927|2618|O27|V
 VTC1930|2633|O27|V
 VTC1933|2674|O27|V
 VTC1936|2701|O27|V
 VTC2|48|SH|V
-VTC2-1B|63|SH|V
-VTC2-2B|63|SH|V
-VTC20|24|O28|V
 VTC2024|2771|O28|V
 VTC2027|2818|O28|V
 VTC2030|2833|O28|V
@@ -7018,7 +6861,6 @@ VTC2154|3213|O29|V
 VTC2160|3413|O29|V
 VTC2166|3613|O29|V
 VTC2172|3813|O29|V
-VTC22|24|O30|V
 VTC2224|2522|O30|V
 VTC2227|2622|O30|V
 VTC2230|2722|O30|V
@@ -7097,7 +6939,6 @@ VTC2942|2743|O37|V
 VTC2945|2767|O37|V
 VTC2948|2791|O37|V
 VTC3|48|SH|V
-VTC30|24|SH|V
 VTC3024-1B|1875|O38|V
 VTC3027-1B|2025|O38|V
 VTC3030-1B|2175|O38|V
@@ -7145,7 +6986,6 @@ VTC3466|3127|O45|V
 VTC3469|3143|O45|V
 VTC3472|3159|O45|V
 VTC348-1B|2710|O6|V
-VTC35|30|SH|V
 VTC35 24-(-)|2322|O46|V
 VTC35 27-(-)|2422|O46|V
 VTC35 30-(-)|2522|O46|V
@@ -7154,7 +6994,6 @@ VTC35 36-(-)|2722|O46|V
 VTC351-1B|2734|O6|V
 VTC354-1B|2763|O6|V
 VTC357-1B|2769|O6|V
-VTC36|24|O47|V
 VTC360-1B|2780|O6|V
 VTC360-2B|2426|O7|V
 VTC3624|1897|O47|V
@@ -7230,19 +7069,16 @@ VTC669-1B|2704|O12|V
 VTC669-2B|2504|O13|V
 VTC672-1B|2730|O12|V
 VTC672-2B|2530|O13|V
-VTC7|24|SH|V
 VTC7 24-(-)|1506|O14|V
 VTC7 27-(-)|1532|O14|V
 VTC7 30-(-)|1544|O14|V
 VTC7 33-(-)|1571|O14|V
 VTC7 36-(-)|1588|O14|V
-VTC8|24|O15|V
 VTC824|2019|O15|V
 VTC827|2047|O15|V
 VTC830|2065|O15|V
 VTC833|2095|O15|V
 VTC836|2176|O15|V
-VTC9|24|O16|V
 VTC924|1767|O16|V
 VTC927|1802|O16|V
 VTC930|1838|O16|V
@@ -7312,8 +7148,6 @@ VTSB18|476|N23|V
 VTSB21|493|N23|V
 VTSB24|506|N23|V
 VTSB24-2D|693|N23|V
-VTSB24L|506|SH|V
-VTSB24R|506|SH|V
 VTSB27|633|N23|V
 VTSB27-1DR|633|N23|V
 VTSB30|650|N23|V
@@ -7359,14 +7193,6 @@ VW2430-2D|579|N41|V
 VWC2136|517|N42|V
 VWC2436|557|N42|V
 VWC2436-2D|700|N42|V
-G5921|3115|SH|G
-G5924|3130|SH|G
-G5927|3191|SH|G
-G5930|3529|SH|G
-G5933|4067|SH|G
-G5936|4211|SH|G
-G5939|4355|SH|G
-G5942|4499|SH|G
 RH1342|3311|G14|G
 RH1348|3649|G14|G
 RH1354|4187|G14|G
@@ -7578,7 +7404,6 @@ F390|133|Q16|F
 F392|136|Q16|F
 F393|136|Q16|F
 F396|136|Q16|F
-F4 1/4|26|Q16|F
 F41/4102|200|Q16|F
 F41/4108|200|Q16|F
 F41/4114|200|Q16|F
@@ -7866,7 +7691,6 @@ FBPVAL878|299|Q23|A
 FBPVAL881|307|Q23|A
 FBPVAL884|315|Q23|A
 FBPVAL887|323|Q23|A
-M1|42|G2|A
 M142|300|G2|A
 M148|320|G2|A
 M154|340|G2|A
@@ -8171,7 +7995,244 @@ FOOM3687|2840|L43|F
 FOOM3690|2954|L43|F
 FOOM3693|3069|L43|F
 DRBDO24-2D|738|P2|D
-PDRBDO24-2D|960|P5|D`;
+PDRBDO24-2D|960|P5|D
+WRX1530|786|E70|W
+WRX1533|904|E70|W
+WRX1536|1021|E70|W
+WRX1539|1101|E70|W
+WRX1542|1180|E70|W
+WRX1545|1259|E70|W
+WRX1548|1338|E70|W
+WRX1830|821|E70|W
+WRX1833|944|E70|W
+WRX1836|1067|E70|W
+WRX1839|1150|E70|W
+WRX1842|1232|E70|W
+WRX1845|1314|E70|W
+WRX1848|1396|E70|W
+WRX2130|855|E70|W
+WRX2133|984|E70|W
+WRX2136|1112|E70|W
+WRX2139|1198|E70|W
+WRX2142|1284|E70|W
+WRX2145|1370|E70|W
+WRX2148|1456|E70|W
+WRX2430|890|E70|W
+WRX2433|1024|E70|W
+WRX2436|1157|E70|W
+WRX2439|1247|E70|W
+WRX2442|1336|E70|W
+WRX2445|1425|E70|W
+WRX2448|1514|E70|W
+WP24-2D30|1043|E56|W
+WP24-2D33|1083|E56|W
+WP24-2D36|1123|E56|W
+WP24-2D39|1194|E56|W
+WP24-2D42|1265|E56|W
+WP24-2D45|1337|E56|W
+WP24-2D48|1409|E56|W
+F3261/2-Fluted|265|Q16|F
+F6261/2-Fluted|304|Q16|F
+F4 1/4 26 1/2|89|Q16|F
+F330-Fluted|265|Q16|F
+F630-Fluted|304|Q16|F
+F4 1/4 30-Fluted|289|Q16|F
+F333-Fluted|265|Q16|F
+F633-Fluted|304|Q16|F
+F4 1/4 33-Fluted|289|Q16|F
+F3341/2-Fluted|265|Q16|F
+F6341/2-Fluted|304|Q16|F
+F4 1/4 34 1/2|89|Q16|F
+F336-Fluted|273|Q16|F
+F636-Fluted|308|Q16|F
+F4 1/4 36-Fluted|296|Q16|F
+F339-Fluted|277|Q16|F
+F639-Fluted|310|Q16|F
+F4 1/4 39-Fluted|300|Q16|F
+F342-Fluted|281|Q16|F
+F642-Fluted|311|Q16|F
+F4 1/4 42-Fluted|304|Q16|F
+F345-Fluted|290|Q16|F
+F645-Fluted|319|Q16|F
+F4 1/4 45-Fluted|313|Q16|F
+F348-Fluted|290|Q16|F
+F648-Fluted|319|Q16|F
+F4 1/4 48-Fluted|313|Q16|F
+F351-Fluted|299|Q16|F
+F651-Fluted|327|Q16|F
+F4 1/4 51-Fluted|322|Q16|F
+F354-Fluted|299|Q16|F
+F654-Fluted|327|Q16|F
+F4 1/4 54-Fluted|322|Q16|F
+F357-Fluted|308|Q16|F
+F657-Fluted|335|Q16|F
+F4 1/4 57-Fluted|331|Q16|F
+F360-Fluted|308|Q16|F
+F660-Fluted|335|Q16|F
+F4 1/4 60-Fluted|331|Q16|F
+F363-Fluted|317|Q16|F
+F663-Fluted|343|Q16|F
+F4 1/4 63-Fluted|340|Q16|F
+F366-Fluted|317|Q16|F
+F666-Fluted|343|Q16|F
+F4 1/4 66-Fluted|340|Q16|F
+F369-Fluted|323|Q16|F
+F669-Fluted|348|Q16|F
+F4 1/4 69-Fluted|346|Q16|F
+F372-Fluted|323|Q16|F
+F672-Fluted|348|Q16|F
+F4 1/4 72-Fluted|346|Q16|F
+F375-Fluted|326|Q16|F
+F675-Fluted|350|Q16|F
+F4 1/4 75-Fluted|349|Q16|F
+F378-Fluted|326|Q16|F
+F678-Fluted|350|Q16|F
+F4 1/4 78-Fluted|349|Q16|F
+F380-Fluted|328|Q16|F
+F680-Fluted|352|Q16|F
+F4 1/4 80-Fluted|352|Q16|F
+F384-Fluted|328|Q16|F
+F684-Fluted|352|Q16|F
+F4 1/4 84-Fluted|352|Q16|F
+F386-Fluted|333|Q16|F
+F686-Fluted|357|Q16|F
+F4 1/4 86-Fluted|357|Q16|F
+F387-Fluted|333|Q16|F
+F687-Fluted|357|Q16|F
+F4 1/4 87-Fluted|357|Q16|F
+F390-Fluted|333|Q16|F
+F690-Fluted|357|Q16|F
+F4 1/4 90-Fluted|357|Q16|F
+F392-Fluted|336|Q16|F
+F692-Fluted|363|Q16|F
+F4 1/4 92-Fluted|360|Q16|F
+F393-Fluted|336|Q16|F
+F693-Fluted|363|Q16|F
+F4 1/4 93-Fluted|360|Q16|F
+F396-Fluted|336|Q16|F
+F696-Fluted|363|Q16|F
+F4 1/4 96-Fluted|360|Q16|F
+F3102-Fluted|370|Q16|F
+F6102-Fluted|404|Q16|F
+F4 1/4 102-Fluted|400|Q16|F
+F3108-Fluted|370|Q16|F
+F6108-Fluted|404|Q16|F
+F4 1/4 108-Fluted|400|Q16|F
+F3114-Fluted|370|Q16|F
+F6114-Fluted|404|Q16|F
+F4 1/4 114-Fluted|400|Q16|F
+INFWDEP48|776|Q2|A
+INFWDEP51|776|Q2|A
+INFWDEP54|776|Q2|A
+INFWDEP57|848|Q2|A
+INFWDEP60|848|Q2|A
+INFWDEP63|848|Q2|A
+INFWDEP64|848|Q2|A
+INFWDEP66|848|Q2|A
+INFWDEP69|948|Q2|A
+INFWDEP70|948|Q2|A
+INFWDEP72|948|Q2|A
+INFWDEP75|948|Q2|A
+INFWDEP76|948|Q2|A
+INFWDEP78|948|Q2|A
+INFUDEP-24|1282|Q2|T
+INFUDEP-27|1538|Q2|T
+INFUDEP-30|1598|Q2|T
+INFUTDEP-24|1282|Q2|T
+INFUTDEP-27|1538|Q2|T
+INFUTDEP-30|1598|Q2|T
+REP3/4-RCK-24-L/R|317|Q12|T
+REP3/4-FTK-24-L/R|317|Q12|T
+REP1 1/2-RCK-24-L/R|361|Q12|T
+REP1 1/2-FTK-24-L/R|361|Q12|T
+REP3-RCK-24-L/R|372|Q12|T
+REP3-FTK-24-L/R|372|Q12|T
+REP3/4-RCK-27-L/R|380|Q12|T
+REP3/4-FTK-27-L/R|380|Q12|T
+REP1 1/2-RCK-27-L/R|433|Q12|T
+REP1 1/2-FTK-27-L/R|433|Q12|T
+REP3-RCK-27-L/R|446|Q12|T
+REP3-FTK-27-L/R|446|Q12|T
+REP3/4-RCK-30-L/R|440|Q12|T
+REP3/4-FTK-30-L/R|440|Q12|T
+REP1 1/2-RCK-30-L/R|493|Q12|T
+REP1 1/2-FTK-30-L/R|493|Q12|T
+REP3-RCK-30-L/R|506|Q12|T
+REP3-FTK-30-L/R|506|Q12|T
+REP3/4-RCK-33-L/R|500|Q13|T
+REP3/4-FTK-33-L/R|500|Q13|T
+REP1 1/2-RCK-33-L/R|553|Q13|T
+REP1 1/2-FTK-33-L/R|553|Q13|T
+REP3-RCK-33-L/R|566|Q13|T
+REP3-FTK-33-L/R|566|Q13|T
+REP3/4-RCK-36-L/R|560|Q13|T
+REP3/4-FTK-36-L/R|560|Q13|T
+REP1 1/2-RCK-36-L/R|613|Q13|T
+REP1 1/2-FTK-36-L/R|613|Q13|T
+REP3-RCK-36-L/R|626|Q13|T
+REP3-FTK-36-L/R|626|Q13|T
+REP3/4-RCK-39-L/R|620|Q13|T
+REP3/4-FTK-39-L/R|620|Q13|T
+REP1 1/2-RCK-39-L/R|673|Q13|T
+REP1 1/2-FTK-39-L/R|673|Q13|T
+REP3-RCK-39-L/R|686|Q13|T
+REP3-FTK-39-L/R|686|Q13|T
+REP3/4-RCK-42-L/R|680|Q13|T
+REP3/4-FTK-42-L/R|680|Q13|T
+REP1 1/2-RCK-42-L/R|733|Q13|T
+REP1 1/2-FTK-42-L/R|733|Q13|T
+REP3-RCK-42-L/R|746|Q13|T
+REP3-FTK-42-L/R|746|Q13|T
+REP6R1 1/2-RCK-24-L/R|568|Q14|T
+REP6R1 1/2-FTK-24-L/R|568|Q14|T
+REP6R1 1/2-RCK-27-L/R|640|Q14|T
+REP6R1 1/2-FTK-27-L/R|640|Q14|T
+REP6R1 1/2-RCK-30-L/R|645|Q14|T
+REP6R1 1/2-FTK-30-L/R|645|Q14|T
+RH64 30(--)|3015|G59|T
+RH64 36(--)|3030|G59|T
+RH64 42(--)|3091|G59|T
+RH64 48(--)|3429|G59|T
+RH64 54(--)|3967|G59|T
+RH64 60(--)|4111|G59|T
+RH64 66(--)|4255|G59|T
+RH64 72(--)|4399|G59|T
+PRH15 30(--)|4100|G16|T
+PRH15 36(--)|4438|G16|T
+PRH15 42(--)|4976|G16|T
+PRH15 48(--)|5120|G16|T
+PRH15 54(--)|5264|G16|T
+PRH15 60(--)|5408|G16|T
+PRH16 30(--)|4401|G17|T
+PRH16 36(--)|4795|G17|T
+PRH16 42(--)|5189|G17|T
+PRH16 48(--)|5583|G17|T
+PRH16 54(--)|5977|G17|T
+PRH16 60(--)|6371|G17|T
+F4 1/4 45|113|Q16|F
+F4 1/4 48|113|Q16|F
+F4 1/4 51|122|Q16|F
+F4 1/4 54|122|Q16|F
+F4 1/4 57|131|Q16|F
+F4 1/4 60|131|Q16|F
+F4 1/4 63|140|Q16|F
+F4 1/4 66|140|Q16|F
+F4 1/4 69|146|Q16|F
+F4 1/4 72|146|Q16|F
+F4 1/4 75|149|Q16|F
+F4 1/4 78|149|Q16|F
+F4 1/4 80|152|Q16|F
+F4 1/4 84|152|Q16|F
+F4 1/4 86|157|Q16|F
+F4 1/4 87|157|Q16|F
+F4 1/4 90|157|Q16|F
+F4 1/4 92|160|Q16|F
+F4 1/4 93|160|Q16|F
+F4 1/4 96|160|Q16|F
+F4 1/4 102|200|Q16|F
+F4 1/4 108|200|Q16|F
+F4 1/4 114|200|Q16|F
+`;
 
 const CATALOG = _D.split("\n").filter(Boolean).map(l => {
   const [s, p, r, t] = l.split("|");
@@ -8260,7 +8321,7 @@ const uid=()=>Math.random().toString(36).slice(2,10);
 // Per-sq-inch items: S33 bar backs, S34 component bar backs, S35 slat bar backs, 
 // S36 finished tops + edge-banded panels, S37 finished panels, S38 soumi panels
 const SQI_REFS=new Set(["S3","S4","S5","S33","S34","S35","S36","S37","S38","S42","C3"]);
-const SQI_FIXED=new Set(["BB1/4","BB1/4-CMP","BB1/4-CMP-Beaded","BB1/2-CMP","TKMSBB","TKMSLBB","DROT5/8","DROT3/4","LROT","SROT5/8","DROT5/8-PAD","DROT3/4-PAD","DROT5/8-FM","DROT3/4-FM","LROT-FM","SROT5/8-FM","DIRF","CNRLG","VAL","BLLG","BRLG","SDI-W","CLC","LCEC","COS","COF","COR"]);
+const SQI_FIXED=new Set(["ADCSN","ADCSS","BB1/4","BB1/4-CMP","BB1/4-CMP-Beaded","BB1/2-CMP","TKMSBB","TKMSLBB","DROT5/8","DROT3/4","LROT","SROT5/8","DROT5/8-PAD","DROT3/4-PAD","DROT5/8-FM","DROT3/4-FM","LROT-FM","SROT5/8-FM","DIRF","CNRLG","VAL","BLLG","BRLG","SDI-W","CLC","LCEC","COS","COF","COR"]);
 const SQI_SKUS=new Set(["PROFILE FILLER"]);
 const isSqIn=(s,r)=>(SQI_REFS.has(r)&&!SQI_FIXED.has(s))||SQI_SKUS.has(s);
 // EDGT auto-tier pricing: Small ≤2304 sq.in = $0.27, Large >2304 = $0.41, Narrow = $0.82
@@ -8289,7 +8350,7 @@ const isBCF=(s)=>s==="BCF";
 const BCF_NOTE="• Door frame for use on front of glass front beverage coolers\n• Cut for glass will be filled with trim of same wood species\n• BCF available in Cherry, Maple, Red Oak, Select American Poplar, Hickory & Alder & are solid wood construction. No vertical or horizontal grain orientation available. Solid wood color tones may vary from veneer doors.\n• BCF will match those of the lower cabinet door style of adjoining components\n• Lower door style required if not ordered with adjoining components.\n• BCF with painted finishes as Metro will be MDF\n• Available up to 24\" wide and 80\" tall. Specify width and height when ordering\n• Custom rail widths available on all except mitered door styles\n• No custom grooving, notching, or drilling available";
 const CO_NOTE="• Column overlays are sent loose and must be field installed to cabinets\n• Column overlays are matching finish hardwood and attached to a 3\" wide hardwood filler\n• Pricing is per linear inch for each individual column\n• Plinth blocks are 3\" wide by 2 1/2\" tall at top and bottom (Except for use with flush toe kick)\n• Flush toe kick columns have a 6 1/2\" tall plinth block on bottom\n• Column overlays may also be applied to 3\" × 3\" angle fillers, 3\" columns and 3\" end panels\n• Column overlays will cause frameless overlay doors to bump plinth block when opened past 90°\n• Column overlays may also necessitate special counter tops when used with base cabinets\n• Width and depth modifications not available\n• Spindle modifications not available\n• Plinth blocks width modifications not available\n• Custom height of plinth blocks is available for $400 list Upcharge per column\n• Plinth blocks only available on top and bottom of column overlays\n• Column overlay may be ordered unassembled, must specify wall, base, or utility height, sold in complete sets only, field miter and assembly required\n• Column overlays may be ordered in a different color than the cabinet. Contact customer service for price and availability\n• Not available in: TFL, Reconstituted White Oak, Reconstituted Walnut, HPL & PV, Acrylic";
 let CO_DRAWING_B64=null;async function load_CO_DRAWING_B64(){if(!CO_DRAWING_B64){const m=await import("./pdf-co-drawing.js");CO_DRAWING_B64=m.default;}return CO_DRAWING_B64;};
-const SKU_LABELS={"7/8SC":"7/8 Scribe Moulding","7/8TR":"7/8 Trim Moulding","3/4UC":"3/4 Under Cabinet Trim Moulding","1 1/16UC":"1 1/16 Under Cabinet Trim","1 1/16UCB":"1 1/16 Under Cab Bullnose Trim","1 3/4UCA":"1 3/4 Under Cabinet A","1 3/4UCC":"1 3/4 Under Cabinet C","1 3/16UC":"1 3/16 Under Cabinet Trim","3/4OSC":"3/4 Outside Corner Moulding","1 1/4OSC":"1 1/4 Outside Corner Moulding","3/4ISC":"3/4 Inside Corner Moulding","3/4QR":"3/4 Quarter Round Moulding","3/4SB":"3/4 Single Bead Moulding","7/8BM":"7/8 Batten Moulding","7/8TD":"7/8 Traditional Trim","1 3/4CRN":"1 3/4 Crown Moulding","3 1/2CRN":"3 1/2 Crown Moulding","3SCR":"3 Shaker Crown Moulding","5SCR":"5 Shaker Crown Moulding","3FCR":"3 Furniture Crown Moulding","5FCR":"5 Furniture Crown Moulding","31/4FCR":"3 1/4 Furniture Crown Moulding","41/4FCR":"4 1/4 Furniture Crown Moulding","4 3/4CAM":"4 3/4 Crown Applique Moulding","3 7/8CAM":"3 7/8 Crown Applique Moulding","3/4DM":"3/4 Dentil Moulding","3/4RM":"3/4 Rope Moulding","1 1/2 STP":"Square Counter Top Moulding","1 1/2 RTP":"Rounded Counter Top Moulding","1 1/2 CTP":"Cove Edge Counter Top Moulding","1 1/2 DTP":"Detail Edge Counter Top Moulding","1 1/2 RGCT":"Regency Counter Top Moulding","41/4FBC":"4 1/4 Furniture Base Chamfer","21/2CHR":"2 1/2 Chair Rail Moulding","41/4FBP":"4 1/4 Furniture Base Profile","3/4BSM":"3/4 Base Shoe Moulding","3SRM10F":"3 Sub Rail Moulding 10 Face","FM-1":"Mirror Frame Moulding 1","FM-2":"Mirror Frame Moulding 2","FM-3":"Mirror Frame Moulding 3","RCM3":"Reversible Crown Mounting Moulding","F3":"Filler","OVF3":"Overlay Filler","PROFILE FILLER":"Profile Filler","W2436-2D":"Wall 24x36 Two-Door (see W24-2D36)","RW3624-24":"Refrigerator Wall 36x24","RW3612-24":"Refrigerator Wall 36x12","RH57":"Range Hood 57\" Width","O3093":"Oven Cabinet 30x93","3/4TK":"3/4 Toe Kick Moulding","WBC33":"Wall Blind Corner 33","LSD":"Loose Standard Doors","SLBDF":"Slab Drawer Fronts","5PDF":"5 Piece Drawer Fronts","CUSTOM":"Custom Quote","REF":"Custom Refrigerator Panel","DP":"Dishwasher Panel","TUK":"Fill Stick & Marker (Touch-Up)","TUK(Fill Stick & Marker)":"Fill Stick & Marker (Touch-Up)","TUB":"Touch-Up Paint & Fill Stick","GST":"Gallon of Stain","QST":"Quart of Stain","ASC":"Aerosol Can (Touch-Up)","EDGTS":"Edge-Banded Panel Small (≤16 sq.ft)","EDGTL":"Edge-Banded Panel Large (>16 sq.ft)","EDGTN":"Edge-Banded Panel Narrow","BCFTA":"Bev Center Front (Natural Aluminum)","BCFTBL":"Bev Center Front (Matte Black Aluminum)","BCFTMB":"Bev Center Front (Matte Brass)","BCF":"Beverage Center Front","COS":"Column Overlay — Smooth","COF":"Column Overlay — Fluted","COR":"Column Overlay — Rope","SD81/2X11":"Sample Door 8½×11 (Standard)","SD121/2151/2":"Sample Door 12½×15½","CM 8 1/2 x 11":"Color Match Sample 8½×11","CM 12 1/2 x 15 1/2":"Color Match Sample 12½×15½"};
+const SKU_LABELS={"SGD12":"Straight Wall Appliance Garage w/Doors 12","SGD15":"Straight Wall Appliance Garage w/Doors 15","SGD18":"Straight Wall Appliance Garage w/Doors 18","SGD21":"Straight Wall Appliance Garage w/Doors 21","SGD24":"Straight Wall Appliance Garage w/Doors 24","SGD24-2D":"Straight Wall Appliance Garage 2-Door 24","SGD27":"Straight Wall Appliance Garage w/Doors 27","SGD30":"Straight Wall Appliance Garage w/Doors 30","SGD33":"Straight Wall Appliance Garage w/Doors 33","SGD36":"Straight Wall Appliance Garage w/Doors 36","WRX15":"Wall Wine Rack Cabinet 15W","INFWDEP":"Non-Functional Inset Door on Wall Cabinet End","INFBDEP":"Non-Functional Inset Door on Base Cabinet End","INFVDEP":"Non-Functional Inset Door on Vanity End","INFVTDEP":"Non-Functional Inset Door on Vanity Tall End","BFSO24-2D-FHD":"Base Flush Stacked Oven 24 2-Door FHD","INFUDEP-24":"Non-Functional Inset Door on Utility End (pick height)","INFUDEP-27":"Non-Functional Inset Door on Utility End (pick height)","INFUDEP-30":"Non-Functional Inset Door on Utility End (pick height)","INFUTDEP-24":"Non-Functional Inset Door on Utility End (pick height)","INFUTDEP-27":"Non-Functional Inset Door on Utility End (pick height)","INFUTDEP-30":"Non-Functional Inset Door on Utility End (pick height)","REP3/4-RCK-24-L/R":"Tall/Refrigerator End Panel (pick height)","REP3/4-FTK-24-L/R":"Tall/Refrigerator End Panel (pick height)","REP1 1/2-RCK-24-L/R":"Tall/Refrigerator End Panel (pick height)","REP1 1/2-FTK-24-L/R":"Tall/Refrigerator End Panel (pick height)","REP3-RCK-24-L/R":"Tall/Refrigerator End Panel (pick height)","REP3-FTK-24-L/R":"Tall/Refrigerator End Panel (pick height)","REP3/4-RCK-27-L/R":"Tall/Refrigerator End Panel (pick height)","REP3/4-FTK-27-L/R":"Tall/Refrigerator End Panel (pick height)","REP1 1/2-RCK-27-L/R":"Tall/Refrigerator End Panel (pick height)","REP1 1/2-FTK-27-L/R":"Tall/Refrigerator End Panel (pick height)","REP3-RCK-27-L/R":"Tall/Refrigerator End Panel (pick height)","REP3-FTK-27-L/R":"Tall/Refrigerator End Panel (pick height)","REP3/4-RCK-30-L/R":"Tall/Refrigerator End Panel (pick height)","REP3/4-FTK-30-L/R":"Tall/Refrigerator End Panel (pick height)","REP1 1/2-RCK-30-L/R":"Tall/Refrigerator End Panel (pick height)","REP1 1/2-FTK-30-L/R":"Tall/Refrigerator End Panel (pick height)","REP3-RCK-30-L/R":"Tall/Refrigerator End Panel (pick height)","REP3-FTK-30-L/R":"Tall/Refrigerator End Panel (pick height)","REP3/4-RCK-33-L/R":"Tall/Refrigerator End Panel (pick height)","REP3/4-FTK-33-L/R":"Tall/Refrigerator End Panel (pick height)","REP1 1/2-RCK-33-L/R":"Tall/Refrigerator End Panel (pick height)","REP1 1/2-FTK-33-L/R":"Tall/Refrigerator End Panel (pick height)","REP3-RCK-33-L/R":"Tall/Refrigerator End Panel (pick height)","REP3-FTK-33-L/R":"Tall/Refrigerator End Panel (pick height)","REP3/4-RCK-36-L/R":"Tall/Refrigerator End Panel (pick height)","REP3/4-FTK-36-L/R":"Tall/Refrigerator End Panel (pick height)","REP1 1/2-RCK-36-L/R":"Tall/Refrigerator End Panel (pick height)","REP1 1/2-FTK-36-L/R":"Tall/Refrigerator End Panel (pick height)","REP3-RCK-36-L/R":"Tall/Refrigerator End Panel (pick height)","REP3-FTK-36-L/R":"Tall/Refrigerator End Panel (pick height)","REP3/4-RCK-39-L/R":"Tall/Refrigerator End Panel (pick height)","REP3/4-FTK-39-L/R":"Tall/Refrigerator End Panel (pick height)","REP1 1/2-RCK-39-L/R":"Tall/Refrigerator End Panel (pick height)","REP1 1/2-FTK-39-L/R":"Tall/Refrigerator End Panel (pick height)","REP3-RCK-39-L/R":"Tall/Refrigerator End Panel (pick height)","REP3-FTK-39-L/R":"Tall/Refrigerator End Panel (pick height)","REP3/4-RCK-42-L/R":"Tall/Refrigerator End Panel (pick height)","REP3/4-FTK-42-L/R":"Tall/Refrigerator End Panel (pick height)","REP1 1/2-RCK-42-L/R":"Tall/Refrigerator End Panel (pick height)","REP1 1/2-FTK-42-L/R":"Tall/Refrigerator End Panel (pick height)","REP3-RCK-42-L/R":"Tall/Refrigerator End Panel (pick height)","REP3-FTK-42-L/R":"Tall/Refrigerator End Panel (pick height)","REP6R1 1/2-RCK-24-L/R":"Tall/Refrigerator End Panel (pick height)","REP6R1 1/2-FTK-24-L/R":"Tall/Refrigerator End Panel (pick height)","REP6R1 1/2-RCK-27-L/R":"Tall/Refrigerator End Panel (pick height)","REP6R1 1/2-FTK-27-L/R":"Tall/Refrigerator End Panel (pick height)","REP6R1 1/2-RCK-30-L/R":"Tall/Refrigerator End Panel (pick height)","REP6R1 1/2-FTK-30-L/R":"Tall/Refrigerator End Panel (pick height)","RH64 30(--)":"Range Hood 64 w/Liner (pick height)","RH64 36(--)":"Range Hood 64 w/Liner (pick height)","RH64 42(--)":"Range Hood 64 w/Liner (pick height)","RH64 48(--)":"Range Hood 64 w/Liner (pick height)","RH64 54(--)":"Range Hood 64 w/Liner (pick height)","RH64 60(--)":"Range Hood 64 w/Liner (pick height)","RH64 66(--)":"Range Hood 64 w/Liner (pick height)","RH64 72(--)":"Range Hood 64 w/Liner (pick height)","PRH15 30(--)":"Peninsula Range Hood 15 w/Liner (pick height)","PRH15 36(--)":"Peninsula Range Hood 15 w/Liner (pick height)","PRH15 42(--)":"Peninsula Range Hood 15 w/Liner (pick height)","PRH15 48(--)":"Peninsula Range Hood 15 w/Liner (pick height)","PRH15 54(--)":"Peninsula Range Hood 15 w/Liner (pick height)","PRH15 60(--)":"Peninsula Range Hood 15 w/Liner (pick height)","PRH16 30(--)":"Peninsula Range Hood 16 w/Liner (pick height)","PRH16 36(--)":"Peninsula Range Hood 16 w/Liner (pick height)","PRH16 42(--)":"Peninsula Range Hood 16 w/Liner (pick height)","PRH16 48(--)":"Peninsula Range Hood 16 w/Liner (pick height)","PRH16 54(--)":"Peninsula Range Hood 16 w/Liner (pick height)","PRH16 60(--)":"Peninsula Range Hood 16 w/Liner (pick height)","7/8SC":"7/8 Scribe Moulding","7/8TR":"7/8 Trim Moulding","3/4UC":"3/4 Under Cabinet Trim Moulding","1 1/16UC":"1 1/16 Under Cabinet Trim","1 1/16UCB":"1 1/16 Under Cab Bullnose Trim","1 3/4UCA":"1 3/4 Under Cabinet A","1 3/4UCC":"1 3/4 Under Cabinet C","1 3/16UC":"1 3/16 Under Cabinet Trim","3/4OSC":"3/4 Outside Corner Moulding","1 1/4OSC":"1 1/4 Outside Corner Moulding","3/4ISC":"3/4 Inside Corner Moulding","3/4QR":"3/4 Quarter Round Moulding","3/4SB":"3/4 Single Bead Moulding","7/8BM":"7/8 Batten Moulding","7/8TD":"7/8 Traditional Trim","1 3/4CRN":"1 3/4 Crown Moulding","3 1/2CRN":"3 1/2 Crown Moulding","3SCR":"3 Shaker Crown Moulding","5SCR":"5 Shaker Crown Moulding","3FCR":"3 Furniture Crown Moulding","5FCR":"5 Furniture Crown Moulding","31/4FCR":"3 1/4 Furniture Crown Moulding","41/4FCR":"4 1/4 Furniture Crown Moulding","4 3/4CAM":"4 3/4 Crown Applique Moulding","3 7/8CAM":"3 7/8 Crown Applique Moulding","3/4DM":"3/4 Dentil Moulding","3/4RM":"3/4 Rope Moulding","1 1/2 STP":"Square Counter Top Moulding","1 1/2 RTP":"Rounded Counter Top Moulding","1 1/2 CTP":"Cove Edge Counter Top Moulding","1 1/2 DTP":"Detail Edge Counter Top Moulding","1 1/2 RGCT":"Regency Counter Top Moulding","41/4FBC":"4 1/4 Furniture Base Chamfer","21/2CHR":"2 1/2 Chair Rail Moulding","41/4FBP":"4 1/4 Furniture Base Profile","3/4BSM":"3/4 Base Shoe Moulding","3SRM10F":"3 Sub Rail Moulding 10 Face","FM-1":"Mirror Frame Moulding 1","FM-2":"Mirror Frame Moulding 2","FM-3":"Mirror Frame Moulding 3","RCM3":"Reversible Crown Mounting Moulding","F3":"Filler","OVF3":"Overlay Filler","PROFILE FILLER":"Profile Filler","W2436-2D":"Wall 24x36 Two-Door (see W24-2D36)","RW3624-24":"Refrigerator Wall 36x24","RW3612-24":"Refrigerator Wall 36x12","RH57":"Range Hood 57\" Width","O3093":"Oven Cabinet 30x93","3/4TK":"3/4 Toe Kick Moulding","WBC33":"Wall Blind Corner 33","LSD":"Loose Standard Doors","SLBDF":"Slab Drawer Fronts","5PDF":"5 Piece Drawer Fronts","CUSTOM":"Custom Quote","REF":"Custom Refrigerator Panel","DP":"Dishwasher Panel","TUK":"Fill Stick & Marker (Touch-Up)","TUK(Fill Stick & Marker)":"Fill Stick & Marker (Touch-Up)","TUB":"Touch-Up Paint & Fill Stick","GST":"Gallon of Stain","QST":"Quart of Stain","ASC":"Aerosol Can (Touch-Up)","EDGTS":"Edge-Banded Panel Small (≤16 sq.ft)","EDGTL":"Edge-Banded Panel Large (>16 sq.ft)","EDGTN":"Edge-Banded Panel Narrow","BCFTA":"Bev Center Front (Natural Aluminum)","BCFTBL":"Bev Center Front (Matte Black Aluminum)","BCFTMB":"Bev Center Front (Matte Brass)","BCF":"Beverage Center Front","COS":"Column Overlay — Smooth","COF":"Column Overlay — Fluted","COR":"Column Overlay — Rope","SD81/2X11":"Sample Door 8½×11 (Standard)","SD121/2151/2":"Sample Door 12½×15½","CM 8 1/2 x 11":"Color Match Sample 8½×11","CM 12 1/2 x 15 1/2":"Color Match Sample 12½×15½"};
 const isCustom=(s)=>s==="CUSTOM";
 
 // ── Oven Cutout Spec Forms ──
@@ -8708,6 +8769,9 @@ function _cabW(sku){
 
 /* ── Available heights per catalog reference (from Eclipse catalog v8.8.0) ── */
 const TALL_HEIGHTS={
+  G59:[21,24,27,30,33,36,39,42],
+  G16:[24,30,36,42,48,54],
+  G17:[24,30,36,42,48,54],
   // Utility cabinets (standard) — 84-102
   L2:[84,87,90,93,96,102],
   // Utility Tall, Clothes Closet, Broom Closet — 84-114
