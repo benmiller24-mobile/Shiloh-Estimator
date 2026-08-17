@@ -13363,7 +13363,7 @@ function App({user, profile, supabase, onLogout, onBack, onAdmin, initialQuoteId
 
     <div style={{background:C.ink,color:C.cream,padding:mob?"9px 11px":"11px 18px",display:"flex",alignItems:"center",justifyContent:"space-between",gap:6,position:"sticky",top:0,zIndex:100}}>
       <div style={{display:"flex",alignItems:"center",gap:7,flexShrink:0}}>
-        <span style={{fontFamily:F.d,fontSize:mob?15:18,fontWeight:700}}>Eclipse</span>
+        <span style={{fontFamily:F.d,fontSize:mob?15:18,fontWeight:700}}>Shiloh</span>
         {!mob&&<><span style={{fontSize:7.5,fontFamily:F.m,background:C.acc,color:"#fff",padding:"2px 5px",borderRadius:3}}>v8.8.0</span>
         <span style={{fontSize:9,color:C.stL}}>{CATALOG.length} SKUs</span></>}
       </div>
@@ -13520,7 +13520,7 @@ function App({user, profile, supabase, onLogout, onBack, onAdmin, initialQuoteId
       {items.length===0?(<div className="c" style={{padding:mob?28:44,textAlign:"center"}}>
         <div style={{fontSize:28,marginBottom:8}}>◻</div>
         <div style={{fontFamily:F.d,fontSize:16,fontWeight:600,marginBottom:5}}>No cabinets yet</div>
-        <div style={{color:C.stone,fontSize:12.5,marginBottom:14}}>{mob?"Tap + below":"Use the catalog above"} to add Eclipse cabinets.</div>
+        <div style={{color:C.stone,fontSize:12.5,marginBottom:14}}>{mob?"Tap + below":"Use the catalog above"} to add Shiloh cabinets.</div>
         {mob&&<button className="bt bp" onClick={()=>ssAd(true)} style={{fontSize:13,padding:"9px 22px"}}>+ Add Cabinets</button>}
       </div>):(
         <div>{!groupByZone?fi.map(item=>{
@@ -14413,7 +14413,7 @@ return(<div style={{marginBottom:5}}>
       })()}
 
       <div style={{textAlign:"center",marginTop:20,color:C.stone,fontSize:9.5,fontFamily:F.m}}>
-        Eclipse Cabinetry by WW Wood Products · Catalog v8.10.0 · {CATALOG.length} SKUs · Pinnacle Sales
+        Shiloh Cabinetry by WW Wood Products · Catalog v3.42 · {CATALOG.length} SKUs · Pinnacle Sales
       </div>
     </div>
 
