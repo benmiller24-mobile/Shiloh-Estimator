@@ -13295,8 +13295,12 @@ function App({user, profile, supabase, onLogout, onBack, onAdmin, initialQuoteId
         if(glazeMap[glaze])collectX(glazeMap[glaze]);
         if(hlMap[highlight])collectX(hlMap[highlight]);
         if(!glazeMap[glaze]&&!hlMap[highlight])collectX("None");
-        // Edge Profile
-        if(edgePro&&edgePro!=="None")collectX(edgePro);
+        // Edge Profile (SHI-SO-CS marker names carry footnote asterisks on 200/500/700)
+        const edgeXMap={"200":"200*","500":"500**","700":"700***"};
+        if(edgePro&&edgePro!=="None"&&edgePro!=="Matching")collectX(edgeXMap[edgePro]||edgePro);
+        // Hinge / Cabinet Style — X the matching box on the SHI-SO-CS overlay/inset grid
+        const ovlXMap={"CN":"CN - Concealed ½” Overlay°","EN":"EN - Concealed 1 ¼” Overlay°","FI":"Flush Inset°","BD":"Beaded Inset°","SB":"Square Bead Inset°","MOD-FI":"Modern Flush Inset°","MOD-BD":"Modern Beaded Inset°","MOD-SB":"Modern Square Bead Inset°"};
+        if(ovlXMap[ovl])collectX(ovlXMap[ovl]);
         // Drawer Box
         const dbMap={"5/8-STD":"\u215D\u201D Hardwood","3/4-PREM":"\u00BE\u201D Hardwood","3/4-PREM-FE":"\u00BE\u201D Hardwood","5/8-SM":"\u215D\u201D Sim. Metal","5/8-STD-FE":"\u215D\u201D Hardwood","5/8-SM-FE":"\u215D\u201D Sim. Metal","LEGRA":"Blum Legrabox"};
         if(dbMap[drwBox])collectX(dbMap[drwBox]);
@@ -13425,7 +13429,7 @@ function App({user, profile, supabase, onLogout, onBack, onAdmin, initialQuoteId
     <div style={{background:C.ink,color:C.cream,padding:mob?"9px 11px":"11px 18px",display:"flex",alignItems:"center",justifyContent:"space-between",gap:6,position:"sticky",top:0,zIndex:100}}>
       <div style={{display:"flex",alignItems:"center",gap:7,flexShrink:0}}>
         <span style={{fontFamily:F.d,fontSize:mob?15:18,fontWeight:700}}>Shiloh</span>
-        {!mob&&<><span style={{fontSize:7.5,fontFamily:F.m,background:C.acc,color:"#fff",padding:"2px 5px",borderRadius:3}}>v8.8.0</span>
+        {!mob&&<><span style={{fontSize:7.5,fontFamily:F.m,background:C.acc,color:"#fff",padding:"2px 5px",borderRadius:3}}>v34.2</span>
         <span style={{fontSize:9,color:C.stL}}>{CATALOG.length} SKUs</span></>}
       </div>
       {mob?<div style={{display:"flex",gap:3,overflowX:"auto",WebkitOverflowScrolling:"touch",msOverflowStyle:"none",scrollbarWidth:"none",paddingRight:2}}>
@@ -13547,7 +13551,7 @@ function App({user, profile, supabase, onLogout, onBack, onAdmin, initialQuoteId
           </div></div>}
       </div>
 
-      {!mob&&<div className="c" style={{marginBottom:10}}><div className="ch">Add Cabinets<span style={{fontSize:10.5,color:C.stone,fontFamily:F.b,fontWeight:400}}>Eclipse Catalog v8.10.0 · {CATALOG.length} SKUs</span></div><div className="cb"><AddUI onAdd={addIt} onAddCustom={addCustom}/></div></div>}
+      {!mob&&<div className="c" style={{marginBottom:10}}><div className="ch">Add Cabinets<span style={{fontSize:10.5,color:C.stone,fontFamily:F.b,fontWeight:400}}>Shiloh Catalog v34.2 · {CATALOG.length} SKUs</span></div><div className="cb"><AddUI onAdd={addIt} onAddCustom={addCustom}/></div></div>}
 
       <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:8,flexWrap:"wrap",gap:mob?6:4}}>
         <div style={{display:"flex",gap:mob?4:3,alignItems:"center",overflowX:"auto",WebkitOverflowScrolling:"touch",paddingBottom:mob?2:0}}>
